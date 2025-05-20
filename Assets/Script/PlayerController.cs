@@ -29,6 +29,8 @@ public class PlayerController : FirstPersonCharacter
     public Camera playerCamera;
     public float fov = 60f;
     
+    public CameraShake cameraShake;
+    
     private float originalHeight;
     private Vector3 originalCenter;
     private Vector3 originalCameraLocalPos;
@@ -66,12 +68,10 @@ public class PlayerController : FirstPersonCharacter
     private float timer = 0;
 
     [Header("Wall Run Camera Effects")] 
-    public float wallRunTilt = 15f;
-    public float tiltSmoothSpeed = 5f;
     private float targetTilt = 0f;
     private float currentTilt = 0f;
-    public Transform playerBody;
-    public Transform tiltTransform;
+    public float wallRunTilt = 15f; // angle de la caméra pendant le wall run
+    public float tiltSmoothSpeed = 5f;
     
     [Header("Ledge Propulsion")]
     [SerializeField] private float ledgeCheckDistance = 0.6f;
@@ -105,6 +105,9 @@ public class PlayerController : FirstPersonCharacter
         {
             if (landingSound && !landingSound.isPlaying)
                 landingSound.Play();
+    
+            if (cameraShake != null)
+                cameraShake.TriggerShake();
         }
 
         if (_isJumping)
@@ -165,9 +168,11 @@ public class PlayerController : FirstPersonCharacter
         }
         
         currentTilt = Mathf.Lerp(currentTilt, targetTilt, Time.deltaTime * tiltSmoothSpeed);
-        Quaternion tiltRot = Quaternion.Euler(0f, 0f, currentTilt);
-        tiltTransform.localRotation = tiltRot;
-        
+        cameraTransform.localRotation = Quaternion.Euler(0, 0, currentTilt);
+        if (Health <= 0)
+        {
+            FindObjectOfType<DeathManager>().ShowDeathScreen();
+        }
 
     }
     
@@ -531,4 +536,5 @@ public class PlayerController : FirstPersonCharacter
             jointOriginalPos.z
         );
     }
+    
 }
