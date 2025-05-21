@@ -658,15 +658,15 @@ MonoBehaviour:
   jumpSound: {fileID: 6400616554658259346}
   landingSound: {fileID: 7372191449785185322}
   stepSound: {fileID: 3420529234174699414}
-  stepInterval: 0.4
   baseStepSpeed: 5
   enableHeadBob: 1
   joint: {fileID: 9218989425487570071}
-  bobSpeed: 0
-  bobAmount: {x: 0.15, y: 0.15, z: 0}
+  bobSpeed: 10
+  bobAmount: {x: 0, y: 0.15, z: 0}
   cameraTransform: {fileID: 4307520518435901054}
   playerCamera: {fileID: 4280788489814597717}
   fov: 60
+  cameraShake: {fileID: 0}
   capsule: {fileID: 2315898337049555844}
   slideCameraHeight: -1
   slideColliderHeight: 0.5
@@ -674,7 +674,6 @@ MonoBehaviour:
   anim: {fileID: 7423093098510671014}
   slideKey: 306
   slideImpulse: 20
-  slideDownAcceleration: 20
   slideGravity: 200
   wallRunDuration: 5555
   wallRunGravity: 0.05
@@ -684,8 +683,6 @@ MonoBehaviour:
   wallRaycastHeight: 2
   wallRunTilt: 15
   tiltSmoothSpeed: 5
-  playerBody: {fileID: 4618622981714638827}
-  tiltTransform: {fileID: 0}
   ledgeCheckDistance: 0.6
   propulsionSpeed: 10
   propulsionDuration: 0.2
@@ -715,6 +712,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 51
   gun: {fileID: 9093765292645948031}
+  gunTransform: {fileID: 0}
+  recoilOffset: {x: 0, y: 0, z: -0.1}
+  recoilSpeed: 10
+  returnSpeed: 5
 --- !u!82 &3420529234174699414
 AudioSource:
   m_ObjectHideFlags: 0
