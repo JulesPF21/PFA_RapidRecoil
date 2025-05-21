@@ -16,7 +16,6 @@ public class PlayerController : FirstPersonCharacter
     private bool wasGroundedLastFrame = true;
     public AudioSource stepSound;
     private float stepTimer = 0f;
-    public float stepInterval = 0.4f;
     public float baseStepSpeed = 5f;
     
     public bool enableHeadBob = true;
@@ -47,7 +46,6 @@ public class PlayerController : FirstPersonCharacter
     [Header("Sliding Parameters")] 
     public KeyCode slideKey = KeyCode.LeftShift;
     public float slideImpulse = 20.0f;
-    public float slideDownAcceleration = 20.0f;
     public float slideGravity = 3f;
     
     [Header("Wall Run Settings")] 
