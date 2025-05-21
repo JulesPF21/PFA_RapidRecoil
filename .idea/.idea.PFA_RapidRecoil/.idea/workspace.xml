@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9d6108-efff-462b-817a-16378ee9e3e0" name="Changes" comment="" />
+    <list default="true" id="dc9d6108-efff-462b-817a-16378ee9e3e0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PFA_RapidRecoil/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PFA_RapidRecoil/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/VolumetricClouds/VolumetricClouds.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/VolumetricClouds/VolumetricClouds.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Audio Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Audio Mixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/props/Props ville/pot a arbre.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/model/props/Props ville/pot a arbre.prefab" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +21,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ECM2/Examples/First Person/Scripts/FirstPersonCharacterLookInput1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECM2/Examples/First Person/Scripts/FirstPersonCharacterLookInput2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/DeathZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Health1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerController1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -29,7 +37,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Quentin&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -48,7 +57,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\6000.0.35f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Kalav\Desktop\bubblesproject\PFA_RapidRecoil -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Kalav\Desktop\bubblesproject\PFA_RapidRecoil" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -56,7 +65,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\6000.0.35f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Kalav\Desktop\bubblesproject\PFA_RapidRecoil -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Kalav\Desktop\bubblesproject\PFA_RapidRecoil" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -68,6 +77,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -78,6 +90,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -94,6 +109,10 @@
       <updated>1747726493012</updated>
       <workItem from="1747726493494" duration="4000" />
       <workItem from="1747727335898" duration="8112000" />
+      <workItem from="1747819605026" duration="399000" />
+      <workItem from="1747820596437" duration="37000" />
+      <workItem from="1747820696201" duration="527000" />
+      <workItem from="1747821255797" duration="557000" />
     </task>
     <servers />
   </component>
