@@ -47,10 +47,20 @@ public class PlayerShoot : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hit, weapon.range, mask))
         {
             Debug.Log("Objet touché : " + hit.collider.name);
+
+            // Si c'est un baril, on le fait exploser
             if (hit.collider.name == "GO_barril")
             {
                 RayfireBomb barrel = hit.collider.GetComponent<RayfireBomb>();
-                barrel.Explode(0);
+                if (barrel != null)
+                    barrel.Explode(0);
+            }
+
+            // Si c'est un ennemi, on lui inflige 10 de dégâts
+            EnemyAi enemy = hit.collider.GetComponent<EnemyAi>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(10);
             }
         }
     }
