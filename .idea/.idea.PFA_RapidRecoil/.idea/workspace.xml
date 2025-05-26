@@ -6,10 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="dc9d6108-efff-462b-817a-16378ee9e3e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PFA_RapidRecoil/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PFA_RapidRecoil/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/VolumetricClouds/VolumetricClouds.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/VolumetricClouds/VolumetricClouds.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RayFire/Tutorial/Material/Invisible.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RayFire/Tutorial/Material/Invisible.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RayFire/Tutorial/Material/ice.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RayFire/Tutorial/Material/ice.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Audio Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Audio Mixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/model/props/Props ville/pot a arbre.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/model/props/Props ville/pot a arbre.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Vrais Gym.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Vrais Gym.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/map 4 test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/map 4 test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DeathManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DeathManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DeathZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DeathZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_Batiment (2).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_Batiment (2).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_cars_fixed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_cars_fixed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_hangar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_hangar.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_parking (2).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_parking (2).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_soupandbottle.fbx.meta~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_soupandbottle.fbx.meta~HEAD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_soupandbottle.fbx.meta~Leo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_soupandbottle.fbx.meta~Leo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_supermarket.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_supermarket.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_supermarket.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/GO_supermarket.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/batiment propre PFA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/batiment propre PFA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/immeuble abimer PFA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/immeuble abimer PFA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/immeuble propre PFA.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/immeuble propre PFA.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/props cityblend1 (1) Variant.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/model/props cityblend1 (1) Variant.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/model/props/Props ville/cone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/model/props/Props ville/cone.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +52,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/DeathZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Health1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerController1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@a50b3570474f/Editor/Volume/VolumeEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@39c80789bb81/Shaders/Lit.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -38,7 +67,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Quentin&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,7 +78,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../PFA_Build\TestDestruction.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Build\TestDestruction.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Kalav\Desktop\PFA_Build" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -113,6 +142,11 @@
       <workItem from="1747820596437" duration="37000" />
       <workItem from="1747820696201" duration="527000" />
       <workItem from="1747821255797" duration="557000" />
+      <workItem from="1747914910819" duration="723000" />
+      <workItem from="1747915650054" duration="2797000" />
+      <workItem from="1748009154540" duration="172000" />
+      <workItem from="1748257999296" duration="595000" />
+      <workItem from="1748260813540" duration="606000" />
     </task>
     <servers />
   </component>
