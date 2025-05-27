@@ -1,0 +1,14 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class WorldTeleport : MonoBehaviour
+{
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(1); 
+        }
+
+    }
+}
